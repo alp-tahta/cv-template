@@ -1,0 +1,71 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+% ModernCV themes
+\moderncvstyle{banking} % Style options: banking, casual, classic, etc.
+\moderncvcolor{blue}    % Color options: blue, orange, green, red, purple, etc.
+
+% Adjust page margins
+\usepackage[scale=0.75]{geometry}
+
+% Personal data
+\name{Firstname}{lastname}  % Your name
+\title{Job Title} % Your job title
+\phone[mobile]{+90 555 555 55 55} % Your phone number
+\email{email@email.com} % Your email address
+\social[linkedin]{user-XXXXXXX} % Your LinkedIn account
+\social[github]{GitHubUserName} % Your GitHub account
+\address{City}{Country} % Your address
+\extrainfo{ Military Service : Completed} % Extra info
+% \homepage{www.alptahta.dev} % Your personal website (if any)
+
+\begin{document}
+
+% Header
+\makecvtitle
+
+\section{Skills}
+\cvitem{Programming Languages}{Go, JavaScript, PHP, R}
+\cvitem{Tools}{Git, GitlabCI, Docker, Kubernetes, MySQL, PostgreSQL, CouchbaseDB, GNU/Linux}
+\cvitem{Languages}{Turkish(Native), English (Professional Working Proficiency)}
+
+% Work Experience Section
+\section{Work Experience}
+\cventry{September/2023 - January/2024}{Backend Developer}{CompanyName}{Location}{}{
+\begin{itemize}
+    \item Developed and maintained scalable web applications using the \underline{Go} programming language.
+    \item Item.
+    \item Item.
+    \item Item.
+\end{itemize}
+}
+\cventry{September/2021 - September/2023}{Full-Stack Developer}{CompanyName}{Location}{}{
+\begin{itemize}
+    \item Built scalable \underline{Microservices} using the \underline{Go} programming language and \underline{Couchbase} as \underline{NOSQL} DB.
+    \item Item.
+    \item Item.
+    \item Item.
+\end{itemize}
+}
+\cventry{September/2020 - September/2021}{Full-Stack Developer}{CompanyName}{Location}{}{
+\begin{itemize}
+    \item Item.
+    \item Item.
+    \item Item.
+\end{itemize}
+}
+
+% Education Section
+\section{Education}
+\cventry{StartDate--EndDate}{Bachelor Degree in Computer Engineering}{UniversityName}{City}{\textit{100\% English}}{Specialized in software engineering and programming.}
+%\cventry{2019--2021}{High School Diploma}{Tech High School}{Tech City}{}{}
+
+% Additional Sections (optional)
+
+% \section{Projects}
+% \cvitemwithcomment{Project Name}{Brief description of the project}{Technologies used}
+
+% Footer (optional)
+% \renewcommand{\footrulewidth}{0.4pt} % Line at the bottom
+% \cvitem{}{\footnotesize This CV was generated using the ModernCV template.}
+
+\end{document}
